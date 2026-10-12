@@ -1,0 +1,906 @@
+
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#090909">
+    <meta name="author" content="María Samyreth Jaramillo Orozco">
+    <meta name="description"
+          content="Te invitamos a celebrar una noche mágica, llena de alegría y tradición mexicana, en los XV años de María Samyreth.">
+
+    <title>Mis XV años | María Samyreth</title>
+
+    <!-- Hoja de estilos principal -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Tipografías elegantes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Iconos -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ==================================================
+         1. APERTURA CINEMATOGRÁFICA
+    =================================================== -->
+    <div class="intro" id="intro" aria-label="Apertura de la invitación">
+
+        <div class="intro-envelope" id="introEnvelope">
+
+            <div class="envelope-back"></div>
+
+            <div class="envelope-letter">
+                <span class="letter-monogram">MS</span>
+                <p>Una noche para recordar</p>
+            </div>
+
+            <div class="envelope-flap"></div>
+
+            <div class="envelope-front"></div>
+
+            <div class="wax-seal" aria-hidden="true">
+                <span>MS</span>
+            </div>
+
+        </div>
+
+        <div class="intro-content" id="introContent">
+            <p class="intro-eyebrow">Una invitación especial</p>
+
+            <h1>Mis XV años</h1>
+
+            <p class="intro-name">María Samyreth</p>
+
+            <button class="btn-open" id="btnOpen" type="button">
+                <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+                Abrir invitación
+            </button>
+
+            <p class="intro-date">28 · NOVIEMBRE · 2026</p>
+        </div>
+
+        <p class="intro-loading" id="introLoading" hidden>
+            Preparando una noche mágica...
+        </p>
+
+    </div>
+
+
+    <!-- ==================================================
+         2. CONTENIDO PRINCIPAL
+    =================================================== -->
+    <main id="mainContent" class="main-content" tabindex="-1" inert>
+
+        <!-- PORTADA -->
+        <section class="hero section-dark" id="inicio">
+
+            <div class="hero-background" aria-hidden="true"></div>
+
+            <div class="hero-floral hero-floral-left" aria-hidden="true">
+                <span class="floral-rose">✿</span>
+            </div>
+
+            <div class="hero-floral hero-floral-right" aria-hidden="true">
+                <span class="floral-rose">✿</span>
+            </div>
+
+            <div class="hero-inner">
+
+                <div class="hero-heraldry">
+                    <i class="fa-solid fa-crown hero-crown"
+                       aria-hidden="true"></i>
+
+                    <div class="hero-monogram" aria-label="Monograma MS">
+                        M<span>S</span>
+                    </div>
+
+                    <div class="ornament-line">
+                        <span></span>
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <span></span>
+                    </div>
+                </div>
+
+                <p class="hero-subtitle">Una celebración inolvidable</p>
+
+                <div class="portrait-frame">
+                    <div class="portrait-halo" aria-hidden="true"></div>
+
+                    <div class="portrait-inner">
+                        <img
+                            src="assets/img/retrato-principal.jpg"
+                            alt="Retrato de María Samyreth con su vestido de XV años"
+                            class="hero-portrait"
+                            id="heroPortrait"
+                            fetchpriority="high"
+                            decoding="async"
+                        >
+
+                        <div class="portrait-placeholder" id="portraitPlaceholder">
+                            <i class="fa-regular fa-image"
+                               aria-hidden="true"></i>
+                            <p>El retrato de María Samyreth aparecerá aquí</p>
+                            <span>Fotografía pendiente</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-name-block">
+                    <p class="hero-mis-xv">MIS XV AÑOS</p>
+
+                    <h1 class="hero-name">María Samyreth</h1>
+
+                    <p class="hero-full-name">
+                        Jaramillo Orozco
+                    </p>
+
+                    <div class="hero-date">
+                        <span></span>
+                        <time datetime="2026-11-28">
+                            28 · NOVIEMBRE · 2026
+                        </time>
+                        <span></span>
+                    </div>
+                </div>
+
+                <a href="#bienvenida"
+                   class="scroll-discover"
+                   aria-label="Desliza para descubrir la invitación">
+
+                    <span>Desliza para descubrir</span>
+
+                    <i class="fa-solid fa-chevron-down"
+                       aria-hidden="true"></i>
+                </a>
+
+            </div>
+        </section>
+
+
+        <!-- ==================================================
+             3. MENSAJE DE BIENVENIDA
+        =================================================== -->
+        <section class="welcome-section section-ivory reveal"
+                 id="bienvenida">
+
+            <div class="section-ornament" aria-hidden="true">
+                <span></span>
+                <i class="fa-solid fa-star"></i>
+                <span></span>
+            </div>
+
+            <p class="eyebrow">Con mucha ilusión</p>
+
+            <h2 class="section-title">
+                Una noche para recordar
+            </h2>
+
+            <div class="welcome-message">
+                <p>
+                    Hay noches que se convierten en recuerdos para toda
+                    la vida, y esta será una de ellas.
+                </p>
+
+                <p>
+                    Con mucha ilusión, quiero compartir contigo una noche
+                    llena de alegría, tradición y magia mexicana, donde
+                    las luces, las flores y la música se unirán para
+                    celebrar una etapa muy especial de mi vida.
+                </p>
+
+                <p>
+                    Será una noche para celebrar los sueños, agradecer
+                    cada momento y crear recuerdos inolvidables junto a
+                    las personas que hacen mi vida más especial.
+                </p>
+
+                <p class="welcome-highlight">
+                    ¡Me encantará compartir esta noche mexicana contigo!
+                </p>
+            </div>
+
+            <div class="welcome-signature">
+                <span>Con cariño</span>
+                <strong>María Samyreth</strong>
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             4. CUENTA REGRESIVA
+        =================================================== -->
+        <section class="countdown-section section-wine reveal"
+                 id="cuenta-regresiva">
+
+            <div class="countdown-decoration" aria-hidden="true">
+                <span>✿</span>
+                <span>✧</span>
+            </div>
+
+            <p class="eyebrow">El gran día se aproxima</p>
+
+            <h2 class="section-title">
+                Una noche mágica se acerca
+            </h2>
+
+            <p class="countdown-description">
+                Cada instante nos acerca a una celebración inolvidable.
+            </p>
+
+            <div class="countdown-grid"
+                 id="countdown"
+                 role="timer"
+                 aria-label="Cuenta regresiva para los XV años">
+
+                <div class="countdown-card">
+                    <span class="countdown-number" id="days">--</span>
+                    <span class="countdown-label">Días</span>
+                </div>
+
+                <div class="countdown-card">
+                    <span class="countdown-number" id="hours">--</span>
+                    <span class="countdown-label">Horas</span>
+                </div>
+
+                <div class="countdown-card">
+                    <span class="countdown-number" id="minutes">--</span>
+                    <span class="countdown-label">Minutos</span>
+                </div>
+
+                <div class="countdown-card">
+                    <span class="countdown-number" id="seconds">--</span>
+                    <span class="countdown-label">Segundos</span>
+                </div>
+
+            </div>
+
+            <div class="countdown-finished" id="countdownFinished" hidden>
+                Gracias por ser parte de una noche inolvidable
+            </div>
+
+            <a href="assets/mi-evento.ics"
+               class="btn-gold"
+               id="calendarButton"
+               download="XV-Maria-Samyreth.ics">
+
+                <i class="fa-regular fa-calendar"
+                   aria-hidden="true"></i>
+
+                Guardar fecha en mi calendario
+            </a>
+
+            <p class="countdown-note">
+                Sábado 28 de noviembre de 2026
+            </p>
+
+        </section>
+
+
+        <!-- ==================================================
+             5. CEREMONIA Y RECEPCIÓN
+        =================================================== -->
+        <section class="events-section section-ivory reveal"
+                 id="eventos">
+
+            <p class="eyebrow">Acompáñame a celebrar</p>
+
+            <h2 class="section-title">
+                Los momentos de nuestra celebración
+            </h2>
+
+            <p class="section-description">
+                Será un honor compartir contigo cada instante de este
+                día tan especial.
+            </p>
+
+            <div class="events-timeline">
+
+                <!-- CEREMONIA -->
+                <article class="event-card">
+
+                    <div class="event-icon" aria-hidden="true">
+                        <i class="fa-solid fa-church"></i>
+                    </div>
+
+                    <p class="event-number">PRIMER MOMENTO</p>
+
+                    <h3>La ceremonia</h3>
+
+                    <p class="event-time">
+                        <i class="fa-regular fa-clock"
+                           aria-hidden="true"></i>
+                        1:00 p. m.
+                    </p>
+
+                    <div class="event-divider"></div>
+
+                    <h4>Capilla de San Simón</h4>
+
+                    <p class="event-address">
+                        Tejupilco, Estado de México
+                    </p>
+
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&amp;query=Capilla+de+San+Simon+Calzada+de+la+Cadena+Tejupilco+Estado+de+Mexico"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn-map">
+
+                        <i class="fa-solid fa-location-dot"
+                           aria-hidden="true"></i>
+
+                        Cómo llegar
+                    </a>
+
+                </article>
+
+
+                <!-- RECEPCIÓN -->
+                <article class="event-card">
+
+                    <div class="event-icon" aria-hidden="true">
+                        <i class="fa-solid fa-champagne-glasses"></i>
+                    </div>
+
+                    <p class="event-number">SEGUNDO MOMENTO</p>
+
+                    <h3>La recepción</h3>
+
+                    <p class="event-time">
+                        <i class="fa-regular fa-clock"
+                           aria-hidden="true"></i>
+                        3:30 p. m.
+                    </p>
+
+                    <div class="event-divider"></div>
+
+                    <h4>Jardín de Fiestas La Providencia</h4>
+
+                    <p class="event-address">
+                        Dichos, Tejupilco, Estado de México
+                    </p>
+
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&amp;query=Jardin+de+Fiestas+La+Providencia+Dichos+Tejupilco+Estado+de+Mexico"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn-map">
+
+                        <i class="fa-solid fa-location-dot"
+                           aria-hidden="true"></i>
+
+                        Cómo llegar
+                    </a>
+
+                </article>
+
+            </div>
+
+            <div class="event-note">
+                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                <p>
+                    Tu presencia hará que este día sea todavía más especial.
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             6. GALERÍA FOTOGRÁFICA
+        =================================================== -->
+        <section class="gallery-section section-dark reveal"
+                 id="galeria">
+
+            <p class="eyebrow">Instantes que cuentan una historia</p>
+
+            <h2 class="section-title">
+                Mi álbum de recuerdos
+            </h2>
+
+            <p class="section-description">
+                Algunos momentos especiales que quiero compartir contigo.
+            </p>
+
+            <!-- CARRUSEL DESTACADO -->
+            <div class="gallery-carousel" id="galleryCarousel">
+
+                <button class="gallery-arrow gallery-prev"
+                        id="galleryPrev"
+                        type="button"
+                        aria-label="Fotografía anterior">
+
+                    <i class="fa-solid fa-chevron-left"
+                       aria-hidden="true"></i>
+                </button>
+
+                <div class="gallery-track" id="galleryTrack">
+
+                    <button class="gallery-slide is-active"
+                            type="button"
+                            data-gallery-index="0"
+                            aria-label="Ampliar fotografía 1">
+
+                        <img src="assets/img/galeria-1.jpg"
+                             alt="Fotografía de María Samyreth, imagen 1"
+                             loading="lazy"
+                             decoding="async">
+
+                        <span class="gallery-placeholder">
+                            Fotografía 1
+                        </span>
+                    </button>
+
+                    <button class="gallery-slide"
+                            type="button"
+                            data-gallery-index="1"
+                            aria-label="Ampliar fotografía 2">
+
+                        <img src="assets/img/galeria-2.jpg"
+                             alt="Fotografía de María Samyreth, imagen 2"
+                             loading="lazy"
+                             decoding="async">
+
+                        <span class="gallery-placeholder">
+                            Fotografía 2
+                        </span>
+                    </button>
+
+                    <button class="gallery-slide"
+                            type="button"
+                            data-gallery-index="2"
+                            aria-label="Ampliar fotografía 3">
+
+                        <img src="assets/img/galeria-3.jpg"
+                             alt="Fotografía de María Samyreth, imagen 3"
+                             loading="lazy"
+                             decoding="async">
+
+                        <span class="gallery-placeholder">
+                            Fotografía 3
+                        </span>
+                    </button>
+
+                </div>
+
+                <button class="gallery-arrow gallery-next"
+                        id="galleryNext"
+                        type="button"
+                        aria-label="Fotografía siguiente">
+
+                    <i class="fa-solid fa-chevron-right"
+                       aria-hidden="true"></i>
+                </button>
+
+            </div>
+
+            <div class="gallery-indicators"
+                 id="galleryIndicators"
+                 aria-label="Seleccionar fotografía">
+
+                <button class="gallery-dot is-active"
+                        type="button"
+                        data-gallery-index="0"
+                        aria-label="Mostrar fotografía 1"
+                        aria-current="true"></button>
+
+                <button class="gallery-dot"
+                        type="button"
+                        data-gallery-index="1"
+                        aria-label="Mostrar fotografía 2"></button>
+
+                <button class="gallery-dot"
+                        type="button"
+                        data-gallery-index="2"
+                        aria-label="Mostrar fotografía 3"></button>
+
+            </div>
+
+            <!-- VISOR AMPLIADO -->
+            <dialog class="lightbox" id="lightbox"
+                    aria-label="Visor de fotografías">
+
+                <div class="lightbox-content">
+
+                    <button class="lightbox-close"
+                            id="lightboxClose"
+                            type="button"
+                            aria-label="Cerrar fotografía">
+
+                        <i class="fa-solid fa-xmark"
+                           aria-hidden="true"></i>
+                    </button>
+
+                    <button class="lightbox-arrow lightbox-prev"
+                            id="lightboxPrev"
+                            type="button"
+                            aria-label="Fotografía anterior">
+
+                        <i class="fa-solid fa-chevron-left"
+                           aria-hidden="true"></i>
+                    </button>
+
+                    <img src=""
+                         alt=""
+                         id="lightboxImage">
+
+                    <button class="lightbox-arrow lightbox-next"
+                            id="lightboxNext"
+                            type="button"
+                            aria-label="Fotografía siguiente">
+
+                        <i class="fa-solid fa-chevron-right"
+                           aria-hidden="true"></i>
+                    </button>
+
+                    <p class="lightbox-counter" id="lightboxCounter">
+                        1 / 3
+                    </p>
+
+                </div>
+
+            </dialog>
+
+            <p class="gallery-note">
+                Cada fotografía guardará un recuerdo de esta etapa tan especial.
+            </p>
+
+        </section>
+
+
+        <!-- ==================================================
+             7. DETALLES DE LA CELEBRACIÓN
+        =================================================== -->
+        <section class="details-section section-black reveal"
+                 id="detalles">
+
+            <p class="eyebrow">Detalles para compartir esta noche</p>
+
+            <h2 class="section-title">
+                Todo está preparado para celebrar
+            </h2>
+
+            <div class="details-grid">
+
+                <!-- VESTIMENTA -->
+                <article class="detail-card">
+
+                    <div class="detail-medallion" aria-hidden="true">
+                        <i class="fa-solid fa-user-tie"></i>
+                    </div>
+
+                    <h3>Código de vestimenta</h3>
+
+                    <p class="detail-highlight">
+                        Formal con detalles mexicanos
+                    </p>
+
+                    <p>
+                        Te invitamos a acompañarnos con un atuendo elegante
+                        que refleje la magia de nuestra noche mexicana.
+                    </p>
+
+                </article>
+
+
+                <!-- REGALOS -->
+                <article class="detail-card">
+
+                    <div class="detail-medallion" aria-hidden="true">
+                        <i class="fa-solid fa-envelope-open-text"></i>
+                    </div>
+
+                    <h3>Lluvia de sobres</h3>
+
+                    <p class="detail-highlight">
+                        Un detalle de corazón
+                    </p>
+
+                    <p>
+                        Si deseas obsequiarme algo, agradeceré mucho tu
+                        cariño mediante una lluvia de sobres.
+                    </p>
+
+                </article>
+
+
+                <!-- MÚSICA -->
+                <article class="detail-card">
+
+                    <div class="detail-medallion" aria-hidden="true">
+                        <i class="fa-solid fa-music"></i>
+                    </div>
+
+                    <h3>Ambiente musical</h3>
+
+                    <p class="detail-highlight">
+                        Melodías mexicanas
+                    </p>
+
+                    <p>
+                        La música instrumental acompañará esta invitación
+                        con un toque de tradición y elegancia.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             8. CONFIRMACIÓN DE ASISTENCIA
+        =================================================== -->
+        <section class="rsvp-section section-wine reveal"
+                 id="confirmacion">
+
+            <div class="rsvp-decoration" aria-hidden="true">
+                <span>✿</span>
+                <span>✧</span>
+            </div>
+
+            <p class="eyebrow">Tu presencia es especial</p>
+
+            <h2 class="section-title">
+                ¿Me acompañas?
+            </h2>
+
+            <p class="rsvp-message">
+                Me hará mucha ilusión compartir contigo esta noche
+                inolvidable. Por favor, confirma tu asistencia.
+            </p>
+
+            <div class="rsvp-card">
+
+                <div class="rsvp-icon" aria-hidden="true">
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+
+                <h3>Confirma tu asistencia</h3>
+
+                <p>
+                    Envía tu confirmación por WhatsApp con tu nombre.
+                </p>
+
+                <label for="guestName" class="guest-name-label">
+                    Tu nombre
+                </label>
+
+                <input
+                    type="text"
+                    id="guestName"
+                    name="guestName"
+                    class="guest-name-input"
+                    placeholder="Escribe tu nombre"
+                    maxlength="80"
+                    autocomplete="name"
+                >
+
+                <button class="btn-rsvp"
+                        id="btnRSVP"
+                        type="button">
+
+                    <i class="fa-brands fa-whatsapp"
+                       aria-hidden="true"></i>
+
+                    Confirmar asistencia
+                </button>
+
+                <p class="rsvp-privacy">
+                    Tu confirmación se enviará directamente por WhatsApp.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             9. MENSAJE FINAL
+        =================================================== -->
+        <section class="closing-section section-dark reveal"
+                 id="despedida">
+
+            <div class="closing-ornament" aria-hidden="true">
+                <span></span>
+                <i class="fa-solid fa-star"></i>
+                <span></span>
+            </div>
+
+            <p class="eyebrow">Con todo mi cariño</p>
+
+            <h2 class="section-title">
+                Gracias por ser parte de mi historia
+            </h2>
+
+            <div class="closing-message">
+                <p>
+                    Gracias por acompañarme en esta etapa tan especial.
+                    Espero compartir contigo una noche llena de alegría,
+                    música, tradición y magia mexicana, creando recuerdos
+                    que guardaremos siempre en el corazón.
+                </p>
+            </div>
+
+            <div class="closing-heraldry">
+
+                <i class="fa-solid fa-crown closing-crown"
+                   aria-hidden="true"></i>
+
+                <div class="closing-monogram" aria-label="Monograma MS">
+                    M<span>S</span>
+                </div>
+
+                <div class="closing-roses" aria-hidden="true">
+                    <span>✿</span>
+                    <span>❀</span>
+                    <span>✿</span>
+                </div>
+
+            </div>
+
+            <div class="closing-signature">
+                <span>Con cariño,</span>
+                <p>María Samyreth</p>
+            </div>
+
+            <p class="closing-final">
+                ¡Nos vemos para celebrar mis XV años!
+            </p>
+
+            <div class="closing-bottom-ornament" aria-hidden="true">
+                <span></span>
+                <i class="fa-solid fa-star"></i>
+                <span></span>
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             10. COMPARTIR INVITACIÓN
+        =================================================== -->
+        <section class="share-section section-black">
+
+            <p class="share-label">
+                Comparte esta invitación
+            </p>
+
+            <div class="share-actions">
+
+                <button class="btn-share"
+                        id="btnShare"
+                        type="button">
+
+                    <i class="fa-solid fa-share-nodes"
+                       aria-hidden="true"></i>
+
+                    Compartir
+                </button>
+
+                <button class="btn-share"
+                        id="btnCopyLink"
+                        type="button">
+
+                    <i class="fa-regular fa-copy"
+                       aria-hidden="true"></i>
+
+                    Copiar enlace
+                </button>
+
+            </div>
+
+            <p class="share-feedback"
+               id="shareFeedback"
+               role="status"
+               aria-live="polite"></p>
+
+            <p class="footer-copyright">
+                María Samyreth · Mis XV años · 2026
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==================================================
+         11. REPRODUCTOR MUSICAL FLOTANTE
+    =================================================== -->
+    <div class="music-player" id="musicPlayer">
+
+        <button class="music-toggle"
+                id="musicToggle"
+                type="button"
+                aria-label="Reproducir música"
+                aria-pressed="false"
+                title="Reproducir o pausar música">
+
+            <i class="fa-solid fa-music" aria-hidden="true"></i>
+        </button>
+
+        <div class="music-controls" id="musicControls">
+
+            <p class="music-title">
+                Melodías de una noche mágica
+            </p>
+
+            <div class="music-control-row">
+
+                <button class="music-play"
+                        id="musicPlay"
+                        type="button"
+                        aria-label="Reproducir música">
+
+                    <i class="fa-solid fa-play"
+                       aria-hidden="true"></i>
+                </button>
+
+                <label for="musicVolume" class="volume-label">
+                    <i class="fa-solid fa-volume-low"
+                       aria-hidden="true"></i>
+                    <span class="sr-only">Volumen de la música</span>
+                </label>
+
+                <input
+                    type="range"
+                    id="musicVolume"
+                    class="music-volume"
+                    min="0"
+                    max="1"
+                    step="0.05"
+                    value="0.4"
+                    aria-label="Volumen de la música"
+                >
+
+            </div>
+
+        </div>
+
+        <audio id="backgroundMusic"
+               preload="none"
+               loop
+               playsinline>
+
+            <source
+                src="assets/audio/mariachi-instrumental.mp3"
+                type="audio/mpeg">
+
+            Tu navegador no puede reproducir este archivo de audio.
+        </audio>
+
+    </div>
+
+
+    <!-- ==================================================
+         12. BOTÓN VOLVER ARRIBA
+    =================================================== -->
+    <button class="back-to-top"
+            id="backToTop"
+            type="button"
+            aria-label="Volver arriba"
+            title="Volver arriba"
+            hidden>
+
+        <i class="fa-solid fa-arrow-up"
+           aria-hidden="true"></i>
+    </button>
+
+
+    <!-- ==================================================
+         13. JAVASCRIPT
+    =================================================== -->
+    <script src="script.js" defer></script>
+
+</body>
+</html>
